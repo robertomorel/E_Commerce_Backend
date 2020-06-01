@@ -1,10 +1,9 @@
 {
-  "name": "default",
   "type": "postgres",
   "host": "localhost",
-  "port": 5432,
+  "port": "5432",
   "username": "postgres",
-  "password": "pgsql",
+  "password": "docker",
   "database": "gostack_desafio09",
   "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
   "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
